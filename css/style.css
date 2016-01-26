@@ -10,11 +10,14 @@ h2{
 div.center{
   text-align: center;
 }
-img.center{
+#propic_desktop{
   display: block;
   padding-top: 2em;
   margin-left: auto;
   margin-right: auto;
+}
+#propic_mobile{
+  display: none;
 }
 ul.contact{
   font-size: 2em;
@@ -23,4 +26,22 @@ ul.contact{
 }
 p{
   font-size: 1.5em;
+}
+/* ----------- Mobile ----------- */
+
+@media (max-width: 800px){ 
+  #propic_mobile{
+    display: block;
+    padding-top: 1em;
+    margin: 0 auto;
+  }
+  #propic_desktop{
+    display: none;
+  }
+  h1{
+  font-size: 4.5em;
+  }
+  h2{
+    font-size: 2em;
+  }
 }
