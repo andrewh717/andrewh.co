@@ -1,21 +1,29 @@
-body{
+body {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-
 }
-h1{
+
+h1 {
   font-size: 5.5em;
 }
-h2{
+
+h2 {
   font-size: 3em;
 }
-h3{
+
+h3 {
   font-size: 2em;
   font-weight: normal;
 }
-p{
+
+p {
   font-size: 1.5em;
 }
+
+nav {
+  color: #1976D2;
+}
+
 .button {
   font-size: 2em;
   text-decoration: none;
@@ -24,36 +32,44 @@ p{
   padding: 0.2em 0.5em;
   border: 1px solid #CCCCCC;
 }
-#propic_desktop{
+
+#propic_desktop {
   display: block;
   padding-top: 2em;
   margin-left: auto;
   margin-right: auto;
 }
-#propic_mobile{
+
+#propic_mobile {
   display: none;
 }
+
 /* ----------- Mobile ----------- */
 
 @media (max-width: 700px){
-  #propic_mobile{
+  #propic_mobile {
     display: block;
     padding-top: 1em;
     margin: 0 auto;
   }
-  #propic_desktop{
+
+  #propic_desktop {
     display: none;
   }
-  body{
+
+  body {
     width: 100%;
   }
-  div.center{
+
+  div.center {
     width: 100%%;
   }
-  h1{
+
+  h1 {
   font-size: 4.5em;
   }
-  h2{
+
+  h2 {
     font-size: 2em;
   }
 }
