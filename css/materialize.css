@@ -9426,6 +9426,6 @@ h1.text {
   }
 }
 
-#wrapper {
- height: 130px; 
+#full {
+ height: 85vh; 
 }
