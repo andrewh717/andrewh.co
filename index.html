@@ -13,47 +13,38 @@
 
 <body>
   <header>
-    <ul id="slide-out" class="side-nav fixed blue-grey z-depth-2">
+    <ul id="slide-out" class="side-nav fixed blue-grey">
       <div class="container section">
         <li><img class="responsive-img" src="assets/propic_smaller210px.png" alt=""></li>
       </div>
-      <li><a href="#about" id="about-link" class="white-text">About</a></li>
-      <li><a href="#education" id="education-link" class="white-text">Education</a></li>
+      <li><a href="#about" id="about-link" class="white-text"><i class="material-icons white-text">person</i>About</a></li>
+      <li><a href="#education" id="education-link" class="white-text"><i class="material-icons white-text">school</i>Education</a></li>
       <li><a href="#projects" id="projects-link" class="white-text">Projects</a></li>
       <li><a href="#experience" id="experience-link" class="white-text">Experience</a></li>
       <li><a href="resume/Andrew Hernandez Resume v8.pdf" class="white-text" target="_blank">Resume</a></li>
     </ul>
     <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i class="material-icons">menu</i></a>
   </header>
-  <main>
+  <main class="z-depth-3">
     <!--About section-->
     <div id="about" class="banner blue z-depth-1" data-target="about">
       <div class="row">
         <div class="col s12 m9 l10 offset-l1">
-          <h1 class="text white-text">About</h1>
+          <h1 class="text white-text">Hi, I'm Andrew Hernandez</h1>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div id="full" class="col s12 m9 l10 offset-l1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+        <div id="parent" class="col s12 m9 l10 offset-l1">
+          <div id="child" class="section">
+            <p>
+              I'm a junior majoring in Computer Science at Rutgers University - New Brunswick. My main interests include computers and
+              video games. While I aim to one day call myself a software engineer, I'm a gamer at heart. I'm not yet certain
+              which field of Computer Science I want to specialize in, but I know that working with computers is definitely
+              in my future.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -67,20 +58,115 @@
     </div>
     <div class="container">
       <div class="row">
-        <div id="full" class="col s12 m9 l10 offset-l1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+        <div id="parent" class="col s12 m9 l10 offset-l1">
+          <div id="child" class="section">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="assets/rutgers_r.png">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <span class="card-title">Rutgers University</span>
+                  <p>I went to Rutgers</p>
+                </div>
+              </div>
+            </div>
+            <ul class="collapsible hoverable" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">class</i>Relevant Coursework</div>
+                <div class="collapsible-body">
+                  <ul class="simple-list">
+                    <li><a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Intro to Computer Science</a></li>
+                    <li><a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Data Structures</a></li>
+                    <li><a href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Data 101: Data Literacy</a></li>
+                    <li><a href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Computer Architecture</a></li>
+                    <li><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Discrete Structures I</a></li>
+                    <li><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Discrete Structures II</a>                      (in progress)</li>
+                    <li><a href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Systems Programming</a>                      (in progress)</li>
+                    <li><a href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Principles of Programming Languages</a>                      (in progress)</li>
+                    <li><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Udacity: Developing Android Apps</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <ul class="collapsible hoverable" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header"><i class="material-icons">class</i>Relevant Coursework</div>
+                <div class="collapsible-body">
+                  <table class="bordered simple-list">
+                    <theader>
+
+                    </theader>
+                    <tbody>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Intro to Computer Science</a></td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Data Structures</a></td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Data 101: Data Literacy</a></td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Computer Architecture</a></td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Discrete Structures I</a></td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Discrete Structures II</a>(in progress)</td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Systems Programming</a>(in progress)</td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Principles of Programming Languages</a>(in progress)</td>
+                      </tr>
+                      <tr class="hoverable">
+                        <td><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Udacity: Developing Android Apps</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </li>
+            </ul>
+            <ul class="collapsible hoverable" data-collapsible="accordion">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">class</i>Relevant Coursework</div>
+                  <div class="collapsible-body">
+                    <div class="row">
+                      <div class="col s6 m5 waves-effect waves-light btn">
+                        <a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Intro to Computer Science</a>
+                      </div>
+                      <div class="col s6 m5 push-m1 waves-effect waves-light btn">
+                        <a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Data Structures</a>                       
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Data 101: Data Literacy</a>
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Computer Architecture</a>
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Discrete Structures I</a>
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Discrete Structures II</a>
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Systems Programming</a>
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Principles of Programming Languages</a>
+                      </div>
+                      <div class="col s6 m6">
+                        <a class="waves-effect waves-light btn" href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Udacity: Developing Android Apps</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -94,20 +180,22 @@
     </div>
     <div class="container">
       <div class="row">
-        <div id="full" class="col s12 m9 l10 offset-l1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+        <div id="parent" class="col s12 m9 l10 offset-l1">
+          <div id="child" class="section">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -121,20 +209,22 @@
     </div>
     <div class="container">
       <div class="row">
-        <div id="full" class="col s12 m9 l10 offset-l1">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor
-            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+        <div id="parent" class="col s12 m9 l10 offset-l1">
+          <div id="child" class="section">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+              sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -142,12 +232,8 @@
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
   <script type="text/javascript" src="js/init.js"></script>
-  <!--Initialize collapse button for sideNav-->
-  <script>
-    $(".button-collapse").sideNav();
-  </script>
 </body>
 
 </html>
