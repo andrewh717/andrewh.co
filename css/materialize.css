@@ -9440,7 +9440,6 @@ html, body {
   height: 85vh; 
 }
 
-.simple-list li{
-  padding-top: 10px;
-  padding-bottom: 10px;
+ul.simple-list {
+  list-style-type: circle;
 }
