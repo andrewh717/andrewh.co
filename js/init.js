@@ -1,10 +1,11 @@
 $(document).ready(function () {
-    var about = $('#about').position();
-    var education = $('#education').position();
-    var projects = $('#projects').position();
-    var experience = $('#experience').position();
+    
+    
+    
+    
 
     $('#about-link').click(function () {
+        var about = $('#about').position();
         $('html, body').animate({
             scrollTop: about.top
         }, 500);
@@ -13,6 +14,7 @@ $(document).ready(function () {
     });
 
     $('#education-link').click(function () {
+        var education = $('#education').position();
         $('html, body').animate({
             scrollTop: education.top
         }, 500);
@@ -21,6 +23,7 @@ $(document).ready(function () {
     });
 
     $('#projects-link').click(function () {
+        var projects = $('#projects').position();
         $('html, body').animate({
             scrollTop: projects.top
         }, 500);
@@ -29,6 +32,7 @@ $(document).ready(function () {
     });
 
     $('#experience-link').click(function () {
+        var experience = $('#experience').position();
         $('html, body').animate({
             scrollTop: experience.top
         }, 500);

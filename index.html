@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <ul id="slide-out" class="side-nav fixed blue-grey">
+    <ul id="slide-out" class="side-nav fixed blue darken-2">
       <div class="container section">
         <li><img class="responsive-img" src="assets/propic_smaller210px.png" alt=""></li>
       </div>
@@ -30,7 +30,7 @@
     <div id="about" class="banner blue z-depth-1" data-target="about">
       <div class="row">
         <div class="col s12 l11 offset-l1">
-          <h1 class="text white-text">Hi, I'm Andrew Hernandez</h1>
+          <h1 class="text white-text">Andrew Hernandez</h1>
         </div>
       </div>
     </div>
@@ -38,12 +38,16 @@
       <div class="row">
         <div id="parent" class="col s12 l11 offset-l1">
           <div id="child" class="section">
-            <p>
-              I'm a junior majoring in Computer Science at Rutgers University - New Brunswick. My main interests include computers and
-              video games. While I aim to one day call myself a software engineer, I'm a gamer at heart. I'm not yet certain
-              which field of Computer Science I want to specialize in, but I know that working with computers is definitely
-              in my future.
-            </p>
+            <div class="card first">
+              <div class="card-content">
+                <p class="flow-text">
+                  I'm a junior majoring in Computer Science at Rutgers University - New Brunswick. My main interests include computers and
+                  video games. While I aim to one day call myself a software engineer, I'm a gamer at heart. I'm not yet
+                  certain which field of Computer Science I want to specialize in, but I know that working with computers
+                  is definitely in my future.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -60,66 +64,120 @@
       <div class="row">
         <div id="parent" class="col s12 l11 offset-l1">
           <div id="child" class="section">
-            <div class="card">
+            <div class="card first">
               <div class="card-content">
-                <span class="card-title">Rutgers University - New Brunswick</span>
-                <p>I'm currently a junior at Rutgers majoring in Computer Science. Below, you'll find a list of the relevant
-                  courses I've taken.</p>
-                <ul class="simple-list">
-                  <li>Intro to Computer Science</li>
-                  <li>Data Structures</li>
-                  <li>Data 101: Data Literacy</li>
-                  <li>Computer Architecture</li>
-                  <li>Discrete Structures I</li>
-                  <li>Discrete Structures II</li>
-                  <li>Systems Programming</li>
-                  <li>Principles of Programming Languages</li>
-                  <li>Udacity: Developing Android Apps</li>
-                </ul>  
+                <span class="card-title flow-text" id="education-card-title">
+                  Rutgers University - New Brunswick <span id="graduation-date">Expected May 2019</span>
+                  <span id="degree-and-gpa">
+                    B.S. in Computer Science <br>
+                    GPA: 3.3
+                  </span> 
+                </span>
+                <p class="flow-text">
+                  I'm currently a junior at Rutgers majoring in Computer Science. Below, you'll find a list of the relevant courses I've taken.
+                </p>
               </div>
             </div>
-            
-            <ul class="collapsible hoverable" data-collapsible="accordion">
-              <li>
-                <div class="collapsible-header"><i class="material-icons">class</i>Relevant Coursework</div>
-                <div class="collapsible-body">
 
+            <ul class="collapsible" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Intro to Computer Science</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    Intensive introduction to computer science. Problem solving through decomposition. Writing, debugging, and analyzing programs
+                    in Java. Algorithms for sorting and searching. Introduction to data structures, recursion.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Course description</a></span>
                 </div>
               </li>
-            </ul>
-            <ul class="collapsible hoverable" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header"><i class="material-icons">class</i>Relevant Coursework</div>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Data Structures</div>
                 <div class="collapsible-body">
-                  <div class="row">
-                    <div class="col s6 m5 waves-effect waves-light btn">
-                      <a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Intro to Computer Science</a>
-                    </div>
-                    <div class="col s6 m5 push-m1 waves-effect waves-light btn">
-                      <a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Data Structures</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Data 101: Data Literacy</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Computer Architecture</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Discrete Structures I</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Discrete Structures II</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Systems Programming</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Principles of Programming Languages</a>
-                    </div>
-                    <div class="col s6 m6">
-                      <a class="waves-effect waves-light btn" href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Udacity: Developing Android Apps</a>
-                    </div>
-                  </div>
+                  <blockquote class="flow-text">
+                    To investigate the essential properties of data structures and algorithms for operating on them; to use these structures
+                    as tools to assist algorithm design; to extend exposure to searching, sorting and hashing techniques.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Data 101: Data Literacy</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    This class aims to provide you with a basic set of tools for data literacy as well as general view of the impact of data
+                    on society and elements of common sense data analysis and reasoning.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Discrete Structures I</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    To introduce the student to the mathematical tools of logic and induction, and to the basic definitions and theorems concerning
+                    relations, functions, and sets. Later courses in the computer science curriculum build on the mathematical
+                    foundations covered here. Particular emphasis is placed on inductive definitions and proofs, with application
+                    to problems in computer science.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Discrete Structures II</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    Provides the background in combinatorics and probability theory required in design and analysis of algorithms, in system
+                    analysis, and in other areas of computer science.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Computer Architecture</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    This course covers the fundamental issues in the design of modern computer systems, including the design and implementation
+                    of key hardware components such as the processor, memory, and I/O devices, and the software/hardware
+                    interface.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Systems Programming</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    This course teaches students how to think about, build, debug, and test large computer programs. The course stresses learning
+                    how to use tools such as debuggers, profilers, source version control systems, and integrated development
+                    environments as an essential part of developing large programs. The course also stresses the understanding
+                    of how programs execute on today's computers and how to measure and optimize performance. Programming
+                    will be in C on Unix systems to introduce students to a new programming eco system, as well as enable
+                    the mapping of high-level language constructs to the underlying machine.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Principles of Programming Languages</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    The course is aimed at making the student familiar with the general concepts common to all programming languages so as to
+                    facilitate learning new languages. Language paradigms (i.e., logic, functional, procedural, object-oriented)
+                    are compared and implementation strategies are discussed.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Course description</a></span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header highlight flow-text"><i class="material-icons">class</i>Udacity: Developing Android Apps</div>
+                <div class="collapsible-body">
+                  <blockquote class="flow-text">
+                    As the first course in the Android Developer Nanodegree, Developing Android Apps is the foundation of our advanced Android
+                    curriculum. This course blends theory and practice to help you build great apps the right way. In this
+                    course, you'll work with instructors step-by-step to build a cloud-connected Android app, and learn best
+                    practices of mobile development, and Android development in particular.
+                  </blockquote>
+                  <span class="course-description"><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Course description</a></span>
                 </div>
               </li>
             </ul>
