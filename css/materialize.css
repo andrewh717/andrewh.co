@@ -3379,7 +3379,7 @@ nav ul a span.badge {
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 89%;
   }
 }
 
@@ -9407,7 +9407,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 header, main, footer {
-  padding-left: 200px;
+  padding-left: 285px;
+  margin-left: 0;
+  border-left: 0;
 }
 
 .banner {
@@ -9415,6 +9417,8 @@ header, main, footer {
   width: 100%;
   height: 130px;
   padding-left: 100px;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 h1.text {
@@ -9458,7 +9462,7 @@ ul.simple-list {
 }
 
 .card.first {
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 #education-card-title {
@@ -9482,5 +9486,165 @@ ul.simple-list {
   #graduation-date {
     float: none;
     font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  p.flow-text, blockquote.flow-text, .highlight {
+    font-size: 1.35rem;
+  }
+}
+
+h1.flow-text {
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) {
+  h1.flow-text {
+    padding-left:50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1.flow-text {
+    padding-left:10px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  h1.flow-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  h1.flow-text {
+    font-size: 3.06rem;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  h1.flow-text {
+    font-size: 3.12em;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  h1.flow-text {
+    font-size: 3.18rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h1.flow-text {
+    font-size: 3.24rem;
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  h1.flow-text {
+    font-size: 3.3rem;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  h1.flow-text {
+    font-size: 3.36rem;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  h1.flow-text {
+    font-size: 3.42rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1.flow-text {
+    font-size: 3.48rem;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  h1.flow-text {
+    font-size: 3.54rem;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  h1.flow-text {
+    font-size: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  h1.flow-text {
+    font-size: 3.66rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  h1.flow-text {
+    font-size: 3.72rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  h1.flow-text {
+    font-size: 3.78rem;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  h1.flow-text {
+    font-size: 3.84rem;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  h1.flow-text {
+    font-size: 3.9rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  h1.flow-text {
+    font-size: 3.96rem;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  h1.flow-text {
+    font-size: 4.02rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1.flow-text {
+    font-size: 4.08rem;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  h1.flow-text {
+    font-size: 4.14rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  h1.flow-text {
+    font-size: 4.2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1.flow-text {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .banner {
+    height: 100px;
   }
 }
