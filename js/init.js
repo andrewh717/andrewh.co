@@ -1,9 +1,4 @@
 $(document).ready(function () {
-    
-    
-    
-    
-
     $('#about-link').click(function () {
         var about = $('#about').position();
         $('html, body').animate({
@@ -35,6 +30,24 @@ $(document).ready(function () {
         var experience = $('#experience').position();
         $('html, body').animate({
             scrollTop: experience.top
+        }, 500);
+        sideNav().removeMenu();
+        return false;
+    });
+
+    $('#contact-link1').click(function () {
+        var contact = $('#contact').position();
+        $('html, body').animate({
+            scrollTop: contact.top
+        }, 500);
+        sideNav().removeMenu();
+        return false;
+    });
+
+    $('#contact-link2').click(function () {
+        var contact = $('#contact').position();
+        $('html, body').animate({
+            scrollTop: contact.top
         }, 500);
         sideNav().removeMenu();
         return false;
