@@ -9655,4 +9655,7 @@ h1.flow-text {
   width: 100%;
   background-color:#1976D2;  
   z-index: 5;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
 }
