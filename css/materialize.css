@@ -9406,17 +9406,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/
 }
 
-header, main, footer {
+header, main {
   padding-left: 285px;
   margin-left: 0;
   border-left: 0;
-}
-
-.banner {
-  display: block;
-  width: 100%;
-  margin-right: 0;
-  padding-right: 0;
 }
 
 h1.text {
@@ -9424,7 +9417,7 @@ h1.text {
 }
 
 @media only screen and (max-width : 992px) {
-  header, main, footer, .banner {
+  header, main {
     margin-top: 25px;
     padding-left: 0;
   }
