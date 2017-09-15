@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $(".modal").modal();
     $('#about-link').click(function () {
         var about = $('#about').position();
         if($(".flow-text").css("padding-left") == "10px") {
