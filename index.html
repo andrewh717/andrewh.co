@@ -6,7 +6,8 @@
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/custom.min.css" media="screen,projection" />
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -321,19 +322,11 @@
                 <button class="btn modal-trigger blue waves-effect waves-light" type="submit" data-target="thanks">Send 
                   <i class="material-icons right">send</i>
                 </button>
-              </form>              
+                <input type="hidden" name="_next" value="https://andrewh.co/thanks.html" />
+              </form>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div id="thanks" class="modal blue">
-      <div class="modal-content">
-        <h4 class="flow-text white-text">Thank you!</h4>
-        <p class="flow-text white-text">Your message has been sent. I will get back to you as soon as possible! <br> - Andrew</p>
-      </div>
-      <div class="modal-footer blue">
-        <a href="#!" class="modal-action modal-close white-text waves-effect waves-light btn-flat">Close</a>
       </div>
     </div>
   </main>

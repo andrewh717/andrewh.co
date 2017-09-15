@@ -1,0 +1,253 @@
+/* CSS for anything that's not included in Materialize.css */
+
+header, main {
+  padding-left: 285px;
+  margin-left: 0;
+  border-left: 0;
+}
+
+h1.text {
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main {
+    margin-top: 25px;
+    padding-left: 0;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Parent and Child are IDs used to separate banners from content*/
+#parent {
+  display: table;
+}
+
+#child {
+  display: table-row;
+  height: 85vh; 
+}
+
+#child-bottom {
+  display: table-row;
+  height: 100vh;
+}
+
+/* Make an element appear as highlighted when hovered over*/
+.highlight {
+  transition: background-color 0.25s ease;
+}
+
+.highlight:hover {
+  background-color: #f2f2f2;
+}
+
+.course-description {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.card.first {
+  margin-top: 0;
+}
+
+#education-card-title {
+  display: block;
+  margin: 0;
+}
+
+#graduation-date {
+  display: block;
+  margin: 0;
+  float: right;
+}
+
+#degree-and-gpa {
+  display: block;
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width : 1300px) {
+  #graduation-date {
+    float: none;
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  p.flow-text, blockquote.flow-text, .highlight {
+    font-size: 1.35rem;
+  }
+}
+
+h1.flow-text {
+  font-weight: 400;
+}
+
+/* Media queries to adjust h1.flow-text as screen size changes */
+@media only screen and (min-width: 992px) {
+  h1.flow-text {
+    padding-left:50px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1.flow-text {
+    padding-left:10px;
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  h1.flow-text {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  h1.flow-text {
+    font-size: 3.06rem;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  h1.flow-text {
+    font-size: 3.12em;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  h1.flow-text {
+    font-size: 3.18rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h1.flow-text {
+    font-size: 3.24rem;
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  h1.flow-text {
+    font-size: 3.3rem;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  h1.flow-text {
+    font-size: 3.36rem;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  h1.flow-text {
+    font-size: 3.42rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  h1.flow-text {
+    font-size: 3.48rem;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  h1.flow-text {
+    font-size: 3.54rem;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  h1.flow-text {
+    font-size: 3.6rem;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  h1.flow-text {
+    font-size: 3.66rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  h1.flow-text {
+    font-size: 3.72rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  h1.flow-text {
+    font-size: 3.78rem;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  h1.flow-text {
+    font-size: 3.84rem;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  h1.flow-text {
+    font-size: 3.9rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  h1.flow-text {
+    font-size: 3.96rem;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  h1.flow-text {
+    font-size: 4.02rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1.flow-text {
+    font-size: 4.08rem;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  h1.flow-text {
+    font-size: 4.14rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  h1.flow-text {
+    font-size: 4.2rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  h1.flow-text {
+    font-size: 2.8rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .banner {
+    height: 100px;
+  }
+}
+
+/* Top-fixed mobile nav bar */
+.mobile-nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:#1976D2;  
+  z-index: 5;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+}
