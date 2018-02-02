@@ -14,7 +14,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108387513-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-108387513-1');
   </script>
@@ -24,16 +27,38 @@
   <header>
     <ul id="slide-out" class="side-nav fixed blue darken-2 z-depth-2">
       <div class="container section">
-        <li><img class="circle responsive-img" src="assets/headshot500.jpg"></li>
+        <li>
+          <img class="circle responsive-img" src="assets/headshot500.jpg">
+        </li>
       </div>
-      <li><a href="#about" id="about-link" class="white-text"><i class="material-icons white-text">person</i>About</a></li>
-      <li><a href="#education" id="education-link" class="white-text"><i class="material-icons white-text">school</i>Education</a></li>
-      <li><a href="#projects" id="projects-link" class="white-text"><i class="material-icons white-text">folder</i>Projects</a></li>
-      <li><a href="#experience" id="experience-link" class="white-text"><i class="material-icons white-text">work</i>Experience</a></li>
-      <li><a href="#contact" id="contact-link1" class="white-text"><i class="material-icons white-text">email</i>Contact</a></li>
-      <li><a href="resume.pdf" class="white-text" target="_blank"><i class="material-icons white-text">launch</i>Resume</a></li>
+      <li>
+        <a href="#about" id="about-link" class="white-text">
+          <i class="material-icons white-text">person</i>About</a>
+      </li>
+      <li>
+        <a href="#education" id="education-link" class="white-text">
+          <i class="material-icons white-text">school</i>Education</a>
+      </li>
+      <li>
+        <a href="#projects" id="projects-link" class="white-text">
+          <i class="material-icons white-text">folder</i>Projects</a>
+      </li>
+      <li>
+        <a href="#experience" id="experience-link" class="white-text">
+          <i class="material-icons white-text">work</i>Experience</a>
+      </li>
+      <li>
+        <a href="#contact" id="contact-link1" class="white-text">
+          <i class="material-icons white-text">email</i>Contact</a>
+      </li>
+      <li>
+        <a href="resume.pdf" class="white-text" target="_blank">
+          <i class="material-icons white-text">launch</i>Resume</a>
+      </li>
     </ul>
-    <a href="#" data-activates="slide-out" class="mobile-nav button-collapse hide-on-large-only z-depth-2"><i class="material-icons white-text">menu</i></a>
+    <a href="#" data-activates="slide-out" class="mobile-nav button-collapse hide-on-large-only z-depth-2">
+      <i class="material-icons white-text">menu</i>
+    </a>
   </header>
 
   <main>
@@ -50,11 +75,16 @@
         <div id="parent" class="col s12">
           <div id="child" class="section">
             <p class="flow-text">
-              I'm a junior majoring in Computer Science at Rutgers University - New Brunswick. I'm from North Bergen, a town that lies
-              just across the Hudson River from Manhattan. I've loved technology and computers all my life. My biggest hobby
-              is by far gaming. Video games have been a huge part of my life, and quite frankly I think they'll always be
-              a part of it. These days, you can usually find me at my desk playing League of Legends while talking to friends
-              on Discord. If there's anything else you'd like to know, feel free to contact me
+              I'm a junior majoring in Computer Science at Rutgers University - New Brunswick. I've also recently decided to pursue a minor
+              in Economics.
+            </p>
+            <p class="flow-text">
+              Outside of reading and learning about new technologies, I love to play video games. Whether it be League of Legends, Fortnite,
+              or even something on the Nintendo Switch, you can usually find me enjoying a game with friends online. I aim
+              to one day take my passion for software development into the realm of esports.
+            </p>
+            <p class="flow-text">
+              If there's anything else you'd like to know, feel free to contact me
               <a href="#contact" id="contact-link2">here</a>.
             </p>
           </div>
@@ -76,13 +106,13 @@
             <div class="card first">
               <div class="card-content">
                 <span class="card-title flow-text" id="education-card-title">
-                  Rutgers University - New Brunswick 
+                  Rutgers University - New Brunswick
                   <span id="graduation-date">
-                    Expected May 2019         
+                    Expected May 2019
                   </span>
-                <span id="degree-and-gpa">
-                    B.S. in Computer Science <br>
-                    GPA: 3.3
+                  <span id="degree-and-gpa">
+                    B.S. in Computer Science
+                    <br> GPA: 3.3
                   </span>
                 </span>
                 <p class="flow-text">
@@ -93,37 +123,47 @@
 
             <ul class="collapsible" data-collapsible="accordion">
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Intro to Computer Science</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Intro to Computer Science</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     Intensive introduction to computer science. Problem solving through decomposition. Writing, debugging, and analyzing programs
                     in Java. Algorithms for sorting and searching. Introduction to data structures, recursion.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/introduction-to-computer-science" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Data Structures</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Data Structures</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     To investigate the essential properties of data structures and algorithms for operating on them; to use these structures
                     as tools to assist algorithm design; to extend exposure to searching, sorting and hashing techniques.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/data-structures" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Data 101: Data Literacy</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Data 101: Data Literacy</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     This class aims to provide you with a basic set of tools for data literacy as well as general view of the impact of data
                     on society and elements of common sense data analysis and reasoning.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/data-101-data-literacy" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Discrete Structures I</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Discrete Structures I</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     To introduce the student to the mathematical tools of logic and induction, and to the basic definitions and theorems concerning
@@ -131,32 +171,41 @@
                     foundations covered here. Particular emphasis is placed on inductive definitions and proofs, with application
                     to problems in computer science.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-i" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Discrete Structures II</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Discrete Structures II</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     Provides the background in combinatorics and probability theory required in design and analysis of algorithms, in system
                     analysis, and in other areas of computer science.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/introduction-to-discrete-structures-ii" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Computer Architecture</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Computer Architecture</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     This course covers the fundamental issues in the design of modern computer systems, including the design and implementation
                     of key hardware components such as the processor, memory, and I/O devices, and the software/hardware
                     interface.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/computer-architecture" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Systems Programming</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Systems Programming</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     This course teaches students how to think about, build, debug, and test large computer programs. The course stresses learning
@@ -166,22 +215,28 @@
                     will be in C on Unix systems to introduce students to a new programming eco system, as well as enable
                     the mapping of high-level language constructs to the underlying machine.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/systems-programming" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Principles of Programming Languages</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Principles of Programming Languages</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     The course is aimed at making the student familiar with the general concepts common to all programming languages so as to
                     facilitate learning new languages. Language paradigms (i.e., logic, functional, procedural, object-oriented)
                     are compared and implementation strategies are discussed.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.cs.rutgers.edu/course/principles-of-programming-languages" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
               <li>
-                <div class="collapsible-header highlight flow-text"><i class="material-icons">details</i>Udacity: Developing Android Apps</div>
+                <div class="collapsible-header highlight flow-text">
+                  <i class="material-icons">details</i>Udacity: Developing Android Apps</div>
                 <div class="collapsible-body">
                   <blockquote class="flow-text">
                     As the first course in the Android Developer Nanodegree, Developing Android Apps is the foundation of our advanced Android
@@ -189,7 +244,9 @@
                     course, you'll work with instructors step-by-step to build a cloud-connected Android app, and learn best
                     practices of mobile development, and Android development in particular.
                   </blockquote>
-                  <span class="course-description"><a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Course description</a></span>
+                  <span class="course-description">
+                    <a href="https://www.udacity.com/course/new-android-fundamentals--ud851" target="_blank">Course description</a>
+                  </span>
                 </div>
               </li>
             </ul>
@@ -327,7 +384,7 @@
                     <label for="textarea">Enter your message here</label>
                   </div>
                 </div>
-                <button class="btn modal-trigger blue waves-effect waves-light" type="submit" data-target="thanks">Send 
+                <button class="btn modal-trigger blue waves-effect waves-light" type="submit" data-target="thanks">Send
                   <i class="material-icons right">send</i>
                 </button>
                 <input type="hidden" name="_next" value="https://andrewh.co/thanks.html" />
