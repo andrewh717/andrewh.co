@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | Lockdown</title>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../../css/custom.min.css" media="screen,projection" />
+  <!--Unity Stuff-->
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webGL.json", {
+      onProgress: UnityProgress
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <ul id="slide-out" class="side-nav fixed blue darken-2 z-depth-2 white-text">
+      <div class="container">
+        <h3>Instructions</h3>
+        <p>
+          In this game your goal is to guide the blue civilian agents toward the green safety zones,
+          while keeping them away from the red hostile agents. If an enemy comes into contact with a civilian, it's
+          game over.
+        </p>
+        <h3>Controls</h3>
+        <ul>
+          <li>W - places UP sign</li>
+          <li>A - places LEFT sign</li>
+          <li>S - places DOWN sign</li>
+          <li>D - places RIGHT sign</li>
+          <li>Left click - places DISTRACTION</li>
+          <li>Right click - places ALARM</li>
+        </ul>
+        <h3>Group 8</h3>
+        <p>
+          Andrew Hernandez,
+          Behnaz Ghouchani,
+          and John Cheng
+        </p>
+      </div>
+    </ul>
+    <a href="#" data-activates="slide-out" class="mobile-nav button-collapse hide-on-large-only z-depth-2">
+      <i class="material-icons white-text">menu</i>
+    </a>
+  </header>
+  <div class="webgl-content">
+    <div id="gameContainer" style="width: 960px; height: 600px"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+      <div class="title">cs598-lockdown</div>
+    </div>
+  </div>
+</body>
+
+</html>
